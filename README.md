@@ -7,4 +7,6 @@ To generate a whole dungeon, use the "DungeonMain" scene.
 
 Since the dungeon can be quite the labyrinth I advice you to explore via the scene viewer, instead of the in-game character controller.
 
+Settings for the dungeon generation can be be change via the data files located in Assets/Scripts/Data/. 
+
 The grid for spawns can be turned off in the gridController script, line 56, by setting gameObject.SetActive(false);
