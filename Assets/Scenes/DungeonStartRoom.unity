@@ -128,6 +128,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2735308054972918738, guid: c2dbc9d386bd630469a5c91dbe8a5cbd,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735308054972918738, guid: c2dbc9d386bd630469a5c91dbe8a5cbd,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735308054972918738, guid: c2dbc9d386bd630469a5c91dbe8a5cbd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735308054972918738, guid: c2dbc9d386bd630469a5c91dbe8a5cbd,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3207649330702638045, guid: c2dbc9d386bd630469a5c91dbe8a5cbd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -188,5 +208,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Start Room
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2735308054972918738, guid: c2dbc9d386bd630469a5c91dbe8a5cbd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c2dbc9d386bd630469a5c91dbe8a5cbd, type: 3}

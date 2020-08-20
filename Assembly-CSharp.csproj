@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{875F878D-1730-B5AF-F56F-75E2E2E23A66}</ProjectGuid>
+    <ProjectGuid>{32AC1F33-D5C1-A55A-EF2B-DD652A4395F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Player Controller\FirstPersonController.cs" />
+    <Compile Include="Assets\Scripts\Player Controller\ThirdPersonCameraController.cs" />
+    <Compile Include="Assets\Scripts\Player Controller\ThirdPersonCharacterController.cs" />
     <Compile Include="Assets\Scripts\Procedural Generation\DoorController.cs" />
     <Compile Include="Assets\Scripts\Procedural Generation\DungeonController.cs" />
     <Compile Include="Assets\Scripts\Procedural Generation\DungeonCrawler.cs" />
@@ -79,8 +82,6 @@
     <Compile Include="Assets\Scripts\Spawner\SpawnerController.cs" />
     <Compile Include="Assets\Scripts\Spawner\SpawnerData.cs" />
     <Compile Include="Assets\Scripts\Spawner\TrapSpawner.cs" />
-    <Compile Include="Assets\Scripts\Third Person Character\ThirdPersonCameraController.cs" />
-    <Compile Include="Assets\Scripts\Third Person Character\ThirdPersonCharacterController.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Program Files/Unity Editor/2019.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -610,31 +611,31 @@
       <HintPath>D:/Program Files/Unity Editor/2019.3.13f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/User/Documents/GitHub/Algorithmische Erzeugung eines Dungeon Crawler Levels/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/User/Documents/GitHub/Algorithmic Dungeon Level Generator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/User/Documents/GitHub/Algorithmische Erzeugung eines Dungeon Crawler Levels/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/User/Documents/GitHub/Algorithmic Dungeon Level Generator/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/User/Documents/GitHub/Algorithmische Erzeugung eines Dungeon Crawler Levels/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/User/Documents/GitHub/Algorithmic Dungeon Level Generator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/User/Documents/GitHub/Algorithmische Erzeugung eines Dungeon Crawler Levels/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/User/Documents/GitHub/Algorithmic Dungeon Level Generator/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/User/Documents/GitHub/Algorithmische Erzeugung eines Dungeon Crawler Levels/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/User/Documents/GitHub/Algorithmic Dungeon Level Generator/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/User/Documents/GitHub/Algorithmische Erzeugung eines Dungeon Crawler Levels/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/User/Documents/GitHub/Algorithmic Dungeon Level Generator/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/User/Documents/GitHub/Algorithmische Erzeugung eines Dungeon Crawler Levels/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/User/Documents/GitHub/Algorithmic Dungeon Level Generator/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/User/Documents/GitHub/Algorithmische Erzeugung eines Dungeon Crawler Levels/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/User/Documents/GitHub/Algorithmic Dungeon Level Generator/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/User/Documents/GitHub/Algorithmische Erzeugung eines Dungeon Crawler Levels/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/User/Documents/GitHub/Algorithmic Dungeon Level Generator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
