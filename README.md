@@ -5,4 +5,6 @@ After setting up the Project in Unity 2019, you can use the scenes in the scene 
 
 To generate a whole dungeon, use the "DungeonMain" scene. 
 
-There is currently no player controller implemented, so the dungeon has to be navigated in the scene view.
+Since the dungeon can be quite the labyrinth I advice you to explore via the scene viewer, instead of the in-game character controller.
+
+The grid for spawns can be turned off in the gridController script, line 56, by setting gameObject.SetActive(false);
