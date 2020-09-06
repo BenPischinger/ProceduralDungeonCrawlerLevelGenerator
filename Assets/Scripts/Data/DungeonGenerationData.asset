@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberOfDungeons: 1
   numberOfItemRooms: 1
-  iterationMinimum: 25
+  iterationMinimum: 15
   iterationMaximum: 25
