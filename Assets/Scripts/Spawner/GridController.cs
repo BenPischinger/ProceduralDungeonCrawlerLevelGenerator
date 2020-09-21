@@ -53,7 +53,7 @@ public class GridController : MonoBehaviour
 
                 availableTiles.Add(gameObject.transform.position);
 
-                gameObject.SetActive(true);
+                gameObject.SetActive(false);
             }
         }
         GetComponentInParent<SpawnerController>().InitialiseObjectSpawning();

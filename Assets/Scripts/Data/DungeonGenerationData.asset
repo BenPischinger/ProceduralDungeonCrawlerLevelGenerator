@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9af3ce4f89f32b141a61d62d2be106de, type: 3}
   m_Name: DungeonGenerationData
   m_EditorClassIdentifier: 
-  numberOfDungeons: 1
+  numberOfDungeons: 2
   numberOfItemRooms: 1
-  iterationMinimum: 15
-  iterationMaximum: 25
+  iterationMinimum: 45
+  iterationMaximum: 45
