@@ -10,7 +10,7 @@ Additional content can easily be added by creating new scenes with different kin
 
 Same goes for monsters, traps and items by adding additional ones to the existing spawners. 
 
-# Check it out in action on youtube
+# Video Demonstration
 
 [![Youtube link of the project](https://img.youtube.com/vi/BtFnU8MBTk4/0.jpg)](https://www.youtube.com/watch?v=BtFnU8MBTk4)
 
