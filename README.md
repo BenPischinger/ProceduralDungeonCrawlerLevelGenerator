@@ -1,12 +1,14 @@
 # Algorithmic-Dungeon-Level-Generator
 Bachelor Project
 
-After setting up the Project in Unity 2019, you can use the scenes in the scene folder to test out the scripts.
+A Unity project that was developed for my Bachelor Thesis.
+The goal was to create a procedural generation prototype that can generate a dungeon crawler level and fill it up with enemies, traps and items based on the user's input
+Rooms for the dungeon are saved in their own scenes and then placed by a script.
+Additional content can easily be added by creating new scenes with different kinds of rooms or enviroement.
+Same goes for monsters, traps and items by adding additional ones to the existing spawners. 
 
-To generate a whole dungeon, use the "DungeonMain" scene. 
+# Check it out in action on youtube
 
-Since the dungeon can be quite the labyrinth I advice you to explore via the scene viewer, instead of the in-game character controller.
+[![Youtube link of the project](https://img.youtube.com/vi/BtFnU8MBTk4/0.jpg)](https://www.youtube.com/watch?v=BtFnU8MBTk4)
 
-Settings for the dungeon generation can be be change via the data files located in Assets/Scripts/Data/. 
-
-The grid for spawns can be turned off in the gridController script, line 56, by setting gameObject.SetActive(false);
+https://www.youtube.com/watch?v=BtFnU8MBTk4
